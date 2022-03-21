@@ -3,4 +3,5 @@
     <default name="projects" revision="main" remote="github"/>
     <project name="devcontainers" remote="github" path=".devcontainer" revision="go"/>
     <project name="inframap" remote="github" path="inframap" revision="refs/heads/master" />
+    <project name="tfdocs" remote="github" path="tfdocs" revision="refs/heads/master" />
 </manifest>
