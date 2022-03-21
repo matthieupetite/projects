@@ -1,6 +1,6 @@
 <manifest>
     <remote name="github" fetch="https://github.com"/>
-    <default name="matthieupetite/projects" revision="refs/heads/main" remote="github" sync-j="4"/>
+    <default name="matthieupetite/projects" revision="main" remote="github" sync-j="4"/>
     <project name="matthieupetite/containers" remote="github" path=".devcontainer" revision="go"/>
     <project name="matthieupetite/infracost" remote="github" path="infracotst"/>
 </manifest>
