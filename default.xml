@@ -2,5 +2,5 @@
     <remote name="github" fetch="https://github.com"/>
     <default name="matthieupetite/projects" revision="ref/head/main" remote="github"/>
     <project name="matthieupetite/devcontainers" remote="github" path=".devcontainer" revision="go"/>
-    <project name="matthieupetite/infracost" remote="github" path="infracotst"/>
+    <project name="matthieupetite/infracost" remote="github" path="infracotst" revision="feature/azure-sql-managed-isntance" />
 </manifest>
