@@ -1,6 +1,7 @@
 <manifest>
-    <remote name="github" fetch="https://github.com"/>
-    <default name="matthieupetite/projects" revision="main" remote="github"/>
-    <project name="matthieupetite/devcontainers" remote="github" path="." revision="go"/>
-    <project name="matthieupetite/infracost" remote="github" path="infracost" revision="refs/heads/feature/azure-sql-managed-instance" />
+    <remote name="github" fetch="https://github.com/matthieupetite"/>
+    <default name="projects" revision="main" remote="github"/>
+    <project name="devcontainers" remote="github" path=".devcontainer" revision="go"/>
+    <project name="infracost" remote="github" path="infracost" revision="refs/heads/feature/azure-sql-managed-instance" />
+    <project name="docs" remote="github" path="infradoc" revision="refs/heads/feature/document-azure-sql-managed-instance" />
 </manifest>
